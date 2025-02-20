@@ -1,0 +1,99 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+  width: 150px;
+  height: auto;
+  border: 5px dotted #e9c46a;
+}
+
+img:hover {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  /*margin-left: auto;
+    margin-right: auto;*/
+  /*border: 1px dotted blue;*/
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-shadow: #e9c46a 1px 1px;
+  color: #264653;
+  background-color: #2a9d8f;
+  border-bottom: 8px solid #e9c46a;
+  border-radius: 2%;
+}
+
+/*.photo-card {
+    border: 5px solid #264653;
+    border-radius: 2px;
+    border-style: ridge;
+}*/
+
+/*.border-blue {
+    border: 1px dotted blue;
+}*/
+
+/*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+/*
+     Stretch goals:
+     Find other ways you can personalize 
+     the design of your business card, e.g.:
+     - change the border(s)
+     - add border radius
+     - shuffle the layout
+     - shadows        🤯
+     - hover effects  🤯🤯
+     - animations     🤯🤯🤯
+     */
+
+/*
+     Final challenge: Download the code to your local computer and place it in a folder called "business-card" 
+     */
